@@ -18,7 +18,7 @@ void MainWindow::bulidUI()
     labInfo = new QLabel(this);
     labInfo->setText("字体名称:");
     ui->statusBar->addPermanentWidget(labInfo);
-
+//modified
     //为汉语和英语创建互斥选项
     actionGroup = new QActionGroup(this);
     actionGroup->addAction(ui->actLang_CN);
